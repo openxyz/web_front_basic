@@ -1,5 +1,6 @@
 @import 'normalize.css';
 @import 'clearfix.css';
+@import 'font-awesome.css';
 
 * {
 	/*
@@ -79,12 +80,18 @@ section h2{
 
 
 #basic  li{
-	padding-left: 22px;
+	/*padding-left: 22px; */
 	list-style-position: inside;
 	line-height: 2.5rem;
 	border-bottom: 1px dotted grey;
 }
 
+#basic  li i{
+	margin-right: 5px;
+	color: #393939;
+}
+
+/*
 #basic ul.first li{
 	background: url("../img/bg-sprites.png") no-repeat 0 8px;
 }
@@ -96,6 +103,7 @@ section h2{
 #basic ul.last li{
 	background: url("../img/bg-sprites.png") no-repeat 0 -40px;
 }
+*/
 
 #basic ul span.header{
 	margin-right: 0.5em;
