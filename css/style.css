@@ -86,15 +86,15 @@ section h2{
 }
 
 #basic ul.first li{
-	background: url("../img/li-1.png") no-repeat 0 center;
+	background: url("../img/bg-sprites.png") no-repeat 0 8px;
 }
 
 #basic ul.second li{
-	background: url("../img/li-2.png") no-repeat 0 center;
+	background: url("../img/bg-sprites.png") no-repeat 0 -16px;
 }
 
 #basic ul.last li{
-	background: url("../img/li-3.png") no-repeat 0 center;
+	background: url("../img/bg-sprites.png") no-repeat 0 -40px;
 }
 
 #basic ul span.header{
