@@ -7,6 +7,30 @@
 </head>
 <body>
 
+<style type="text/css" media="screen">
+#bg-image{
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    z-index:-9;
+    background-image:url("img/bg.png");
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    -webkit-background-size: cover;/* 兼容Webkit内核浏览器如Chrome和Safari */
+    -o-background-size: cover;/* 兼容Opera */
+    zoom: 1;
+}
+#bg-image img{width:100%;}
+
+</style>
+<div id="bg-image">
+    <img src="img/bg.jpg">
+</div>
+
 <nav id='top'>
 	<ul>
 		<li><a href="#basic">基本信息</a></li>

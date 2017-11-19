@@ -19,8 +19,12 @@ html{
 body{
 	font-size: 1.6em;
 	font-family: Helvetica, "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif;
+	background: url("../img/bg_pattern.jpg") repeat;
+	/* for css3
+	background:linear-gradient(#fff,beige) repeat-x;
+	background-size:10px 1500px;
+	*/
 }
-
 nav{
 	width: 100%;
 	position:fixed;
@@ -75,21 +79,22 @@ section h2{
 
 
 #basic  li{
-	line-height: 2.5rem;
+	padding-left: 22px;
 	list-style-position: inside;
+	line-height: 2.5rem;
 	border-bottom: 1px dotted grey;
 }
 
 #basic ul.first li{
-	list-style-image: url("../img/li-1.png");
+	background: url("../img/li-1.png") no-repeat 0 center;
 }
 
 #basic ul.second li{
-	list-style-image: url("../img/li-2.png");
+	background: url("../img/li-2.png") no-repeat 0 center;
 }
 
 #basic ul.last li{
-	list-style-image: url("../img/li-3.png");
+	background: url("../img/li-3.png") no-repeat 0 center;
 }
 
 #basic ul span.header{
